@@ -15,5 +15,5 @@ I need your help to make this database as robust as possible! Please contribute 
 If you're new to Git but still want to contribute, click "Issues" in the upper right hand corner and create a new issue describing in text what you'd like to add.
 
 ### Thanks so much to...
-- Thank you to Tracy Chou, who started the crowdsourced diversity data movement with her [database](https://github.com/triketora/women-in-software-eng) of the percentage of women in software engineering at various companies.
-- Thank you to Christine Chapman, who maintains a [database](https://github.com/czchapma/college-diversity-data) of diversity numbers of undergraduate computer science majors at various universities.
+- [Tracy Chou](https://github.com/triketora), who started the crowdsourced diversity data movement with her [database](https://github.com/triketora/women-in-software-eng) of the percentage of women in software engineering at various companies.
+- [Christine Chapman](https://github.com/czchapma), who maintains a [database](https://github.com/czchapma/college-diversity-data) of diversity numbers of undergraduate computer science majors at various universities.
