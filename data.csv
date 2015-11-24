@@ -1,6 +1,6 @@
 ,Country,Total # of Faculty,% Women,% Men,% Other,% White,% Middle Eastern (* if included in White),% East Asian,% South Asian (* if included in EA),% Hispanic,% Black,% Native American,% Other,Date Reported,Notes on methodology,Source
 Stanford University,USA,57,7.02%,92.98%,0%,77.19%,*,8.77%,10.53%,1.75%,1.75%,0%,0%,11/23/15,"Counted based on physical appearance, biography, and last name origin",http://www-cs.stanford.edu/directory/faculty
-,,,,,,,,,,,,,,,,
+UC Berkeley,USA,130,11.54%,88.46%,0%,66.15%,3.85%,8.46%,18.46%,2.30%,0.77%,0%,0%,11/23/15,"Includes professors in electrical engineering and computer science. Manually counted and estimated based on appearance, biography, and name",http://www.eecs.berkeley.edu/Faculty/Lists/list.shtml
 ,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,
