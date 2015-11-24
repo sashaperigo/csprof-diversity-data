@@ -1,4 +1,4 @@
-# CS Professor Diversity Data
+# Who's teaching us?
 
 Lately at universities across the nation, there has been a push for greater representation of the demographics of the student body among faculty. While many schools are increasingly admitting diverse talent to the university and into their computer science programs, the faculty is still very male and very white. I created this database in the hope that having accurate data on the diversity numbers of computer science professors across the nation will help to hold our universities accountable. 
 
