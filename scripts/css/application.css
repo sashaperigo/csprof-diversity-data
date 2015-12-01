@@ -1,0 +1,91 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700,300italic);
+
+body{
+  font-family: "Lato", "Helvetica Neue", Arial, sans-serif;
+  font-size: 17px;
+}
+
+td.number, th.number{
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  text-align: right;
+}
+
+
+#schools-table{
+    font-size: 0.9em;
+}
+
+#schools-table tr *:first-child {
+    font-weight: bold;
+    text-align: left;
+    min-width: 180px;
+}
+
+#schools-table th{
+  min-width: 90px;
+}
+
+
+footer.footer{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 100px;
+  color: #fff;
+  background-color: #1a0710;
+}
+
+
+/*
+  Suggested styling for tablesort.js
+  https://github.com/tristen/tablesort#default-css
+  with some modifications...
+*/
+th.sort-header::-moz-selection {
+    background: transparent;
+}
+
+th.sort-header::selection {
+    background: transparent;
+}
+
+th.sort-header {
+    cursor: pointer;
+}
+
+th.sort-header:hover{
+  background-color: #FFE;
+}
+
+th.sort-header::-moz-selection,
+th.sort-header::selection {
+    background: transparent;
+}
+
+table th.sort-header:after {
+    content: '';
+    margin-top: 7px;
+    border-width: 0 4px 4px;
+    border-style: solid;
+    border-color: #404040 transparent;
+    visibility: hidden;
+}
+
+table th.sort-header:hover:after {
+    visibility: visible;
+}
+
+table th.sort-down, table th.sort-up{
+  background-color: #FEE;
+}
+
+table th.sort-up:after,
+table th.sort-down:after,
+table th.sort-down:hover:after {
+    visibility: visible;
+    opacity: 0.4;
+}
+
+table th.sort-up:after {
+    border-bottom: none;
+    border-width: 4px 4px 0;
+}
