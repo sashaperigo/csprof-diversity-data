@@ -1,11 +1,10 @@
-// note: change "dannguyen" to "sashaperigo" if pull request is accepted
 // note: this is temp hacky hacky javascript that will be done much better as
 //   part of a framework such as Jekyll...however, it is lightweight and flexible
 //   enough to serve as a stand-in while the schema is being fleshed out
 // i.e. it should adapt to increasing/decreasing columns...though it expects
 // a few conventions (e.g. '#' or '%' to be in the name of a numeric column)
 
-var CSV_URL = 'https://raw.githubusercontent.com/dannguyen/csprof-diversity-data/master/data.csv';
+var CSV_URL = 'https://raw.githubusercontent.com/sashaperigo/csprof-diversity-data/master/data.csv';
 var SOURCE_COL_NAME = 'Source',
     METHODOLOGY_COL_NAME = 'Notes on methodology';
 (function(){
