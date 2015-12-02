@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CS Professor Diversity Data</title>
+    <link rel="canonical" href="http://sashaperigo.github.io/csprof-diversity-data" />
+    <script src="./scripts/js/papaparse.min.js"></script>
+    <script src="./scripts/js/tablesort.min.js"></script>
+    <script src="./scripts/js/tablesort.number.js"></script>
+    <script src="./scripts/js/application.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./scripts/css/application.css">
+
+</head>
+
+<body>
+    <section class="jumbotron">
+        <div class="container">
+            <h1>CS Professor Diversity Data</h1>
+            <p>This page is derived from the <a href="https://github.com/sashaperigo/csprof-diversity-data/blob/master/data.csv"><strong>data.csv file</strong></a> in Sasha Perigo's  <a href="https://github.com/sashaperigo/csprof-diversity-data">crowdsourced data project</a>.</p>
+        </div>
+    </section>
+    <div class="container-fluid">
+        <table id="schools-table" class="table table-responsive table-striped table-condensed">
+            <thead>
+                <tr id="schools-table-header-row"></tr>
+            </thead>
+            <tbody id="schools-table-body"></tbody>
+        </table>
+
+    </div>
+
+    <footer class="footer inverse" role="footer">
+        <div class="container">
+        <p>If you're interested in contributing, see the Github repo here:
+          <a href="https://github.com/sashaperigo/csprof-diversity-data">sashaperigo/csprof-diversity-data</a>
+        </p>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
