@@ -44,7 +44,7 @@ var SOURCE_COL_NAME = 'Source',
 
             // for columns that should contain numbers,
             // force numerical sort
-            if (key.includes('#') || key.includes('%')) {
+            if (typeof(val) == "number") {
               var tdclass = "number";
               var sort_val = val.toString().match(/^([0-9.]+)[ %]*?$/);
               if (sort_val == null) {
@@ -55,11 +55,7 @@ var SOURCE_COL_NAME = 'Source',
               }
             } else {
               var tdclass = "text";
-              if (val != undefined) {
-                var sort_val = val.replace(/"/g, '');
-              } else {
-                sort_val = null;
-              }
+              var sort_val = val ? val.replace(/"/g, '') : null;
             }
 
             row_str += "<td class=\"" + tdclass + "\" data-sort=\"" + sort_val + "\">" + val + "</td>";
