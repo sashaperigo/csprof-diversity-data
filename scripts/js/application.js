@@ -36,26 +36,26 @@ var SOURCE_COL_NAME = 'Source',
         var row_str = "<tr>";
 
         // now iterate through the headers
-        for(var j = 0, ncols = headers.length; j < ncols; j++) {
+        for (var j = 0, ncols = headers.length; j < ncols; j++) {
           var key = headers[j], val = row[j];
           // temp-hack: concat these two fields at the end into a single field
           // (look at the next block)
-          if(key != SOURCE_COL_NAME && key != METHODOLOGY_COL_NAME){
+          if (key != SOURCE_COL_NAME && key != METHODOLOGY_COL_NAME) {
 
             // for columns that should contain numbers,
             // force numerical sort
-            if(key.includes('#') || key.includes('%')){
+            if (key.includes('#') || key.includes('%')) {
               var tdclass = "number";
               var sort_val = val.toString().match(/^([0-9.]+)[ %]*?$/);
-              if(sort_val == null){
+              if (sort_val == null) {
                 sort_val = -99999; // make blank if not a number
-              }else{
+              } else {
                 sort_val = sort_val[1];
                 val = (Math.round(sort_val * 10) / 10).toFixed(1);
               }
-            }else{
+            } else {
               var tdclass = "text";
-              var sort_val = val.replace(/"/g, '');
+              var sort_val = val ? val.replace(/"/g, '') : null;
             }
 
             row_str += "<td class=\"" + tdclass + "\" data-sort=\"" + sort_val + "\">" + val + "</td>";
