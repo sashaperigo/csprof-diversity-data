@@ -55,7 +55,11 @@ var SOURCE_COL_NAME = 'Source',
               }
             } else {
               var tdclass = "text";
-              var sort_val = val ? val.replace(/"/g, '') : null;
+              if (sort_val != undefined) {
+                var sort_val = val.replace(/"/g, '');
+              } else {
+                sort_val = null;
+              }
             }
 
             row_str += "<td class=\"" + tdclass + "\" data-sort=\"" + sort_val + "\">" + val + "</td>";
